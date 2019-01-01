@@ -44,7 +44,7 @@
 
 # What is your status page called?
 # Shows up in the browser bar and meta tags
-title: Eggsample App Status
+title: CreatorsWave Status
 
 # What language is this site using?
 # Only alters the html[lang] attribute
@@ -61,7 +61,7 @@ languageCode: en
 #
 # Default: /
 # Example: https://status.example.com/
-baseURL: /
+baseURL: https://status.creatorswave.com
 
 ############################################################
 # +------------------------------------------------------+ #
