@@ -1,18 +1,18 @@
 ---
-title: US East Connection Issues
-date: 2018-05-25 04:13:00
+title: Template issue
+date: 2019-01-01 20:45
 resolved: true
-resolvedWhen: 2018-05-25 04:40:00
+resolvedWhen: 2019-01-01 21:00
 # down, disrupted, notice
 severity: disrupted
 affected:
-  - API
+  - web
 section: issue
 ---
 
 *Resolved* -
-We believe all users experiencing issues have been able to connect at this time. {{< track "2018-05-25 05:54:00" >}}
+We believe all users experiencing issues have been able to connect at this time. We have now fully re-generated our certificates, and confirmed connectivity. We have also re-instigated our HSTS settings, and CSP headers. We will continue to closely monitor this situation, and our team are scheduled for a debrief to discuss the situation. 
 
-*Monitoring* - We believe the connectivity issues are being caused by an isolated ISP issue. We've had reports that swapping to Google DNS servers (see here; https://developers.google.com/speed/public-dns/docs/using) resolves the problem for users. {{< track "2018-05-25 04:40:00" >}}
+*Monitoring* - We believe the connectivity issues are being caused by an issue with Cloudflare. We have an engineer working on this fault and are testing a potential fix internally. We apologise for any inconvenience that this might have caused. 
 
-*Investigating* - We're aware of reports that users are experiencing connection issues on the East coast of the United States. We're currently investigating these issues, and apologize for any inconvenience it may be causing you. {{< track "2018-05-25 04:13:00" >}}
+*Investigating* - We have received reports of users not being able to access the site due to an intermittent SSL certificate error, this is preventing any access to the site. Investigations are currently ongoing to track the root-cause of this issue, and we will continue to update users as we can.
