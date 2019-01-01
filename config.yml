@@ -77,13 +77,11 @@ params:
   # https://github.com/mistermantas/cstate/wiki/Customization
   systems:
     -
-      name: Gateway
+      name: web
+      description: The guts of the Creators Wave website.
     -
-      name: API
-      description: The guts of the application.
-    -
-      name: Media Proxy
-      description: This is the service responsible for serving images, audio, and video. It is reliant on our CDN.
+      name: Other
+      description: Coming soon.
 
   # What header design should we use?
   #
@@ -120,8 +118,8 @@ params:
   # Format:
   # customTabs:
   #  -
-  #    name: Name
-  #    link: https://example.com
+      name: Forum
+      link: https://creatorswave.com
 
   # Auto refresh the page
   # every ~5 min
@@ -149,11 +147,11 @@ params:
   # warning: DC143C
   # down: FF8C00
   # notice: 708090
-  brand: 181818
-  ok: 228B22
-  disrupted: FF8C00
-  down: DC143C
-  notice: 708090
+  brand: 2980b9
+  ok: b8e994
+  disrupted: e67e22
+  down: e74c3c
+  notice: 7f8c8d
 
   # If the status page shows that
   # there are disruptions or outages
